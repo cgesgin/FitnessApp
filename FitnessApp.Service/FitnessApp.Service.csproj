@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FitnessApp.Repository\FitnessApp.Repository.csproj" />
+  </ItemGroup>
+
 </Project>
