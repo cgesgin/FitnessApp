@@ -155,6 +155,41 @@ namespace FitnessApp.Repository.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("FitnessApp.Core.Models.MembershipType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MembershipTypes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "One-to-one training with a personal trainer.",
+                            Name = "Personal Training"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Group lessons with instructor.",
+                            Name = "Group Training"
+                        });
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
