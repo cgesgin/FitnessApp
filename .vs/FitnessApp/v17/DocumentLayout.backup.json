@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Repository\\Migrations\\20250630093815_updateDB300620251237.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FitnessApp.Repository\\Migrations\\20250630093815_updateDB300620251237.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BC91261-5EAF-4C64-9298-747DFDC6AD61}|FitnessApp.Web\\FitnessApp.Web.csproj|c:\\users\\cgesgin\\source\\repos\\fitnessapp\\fitnessapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC91261-5EAF-4C64-9298-747DFDC6AD61}|FitnessApp.Web\\FitnessApp.Web.csproj|solutionrelative:fitnessapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF8460DC-3EAC-44C9-AD60-C52E12BF86DA}|FitnessApp.Repository\\FitnessApp.Repository.csproj|c:\\users\\cgesgin\\source\\repos\\fitnessapp\\fitnessapp.repository\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF8460DC-3EAC-44C9-AD60-C52E12BF86DA}|FitnessApp.Repository\\FitnessApp.Repository.csproj|solutionrelative:fitnessapp.repository\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BC91261-5EAF-4C64-9298-747DFDC6AD61}|FitnessApp.Web\\FitnessApp.Web.csproj|c:\\users\\cgesgin\\source\\repos\\fitnessapp\\fitnessapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC91261-5EAF-4C64-9298-747DFDC6AD61}|FitnessApp.Web\\FitnessApp.Web.csproj|solutionrelative:fitnessapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF8460DC-3EAC-44C9-AD60-C52E12BF86DA}|FitnessApp.Repository\\FitnessApp.Repository.csproj|c:\\users\\cgesgin\\source\\repos\\fitnessapp\\fitnessapp.repository\\seeds\\activityseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF8460DC-3EAC-44C9-AD60-C52E12BF86DA}|FitnessApp.Repository\\FitnessApp.Repository.csproj|solutionrelative:fitnessapp.repository\\seeds\\activityseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BC91261-5EAF-4C64-9298-747DFDC6AD61}|FitnessApp.Web\\FitnessApp.Web.csproj|c:\\users\\cgesgin\\source\\repos\\fitnessapp\\fitnessapp.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BC91261-5EAF-4C64-9298-747DFDC6AD61}|FitnessApp.Web\\FitnessApp.Web.csproj|solutionrelative:fitnessapp.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC91261-5EAF-4C64-9298-747DFDC6AD61}|FitnessApp.Web\\FitnessApp.Web.csproj|c:\\users\\cgesgin\\source\\repos\\fitnessapp\\fitnessapp.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BC91261-5EAF-4C64-9298-747DFDC6AD61}|FitnessApp.Web\\FitnessApp.Web.csproj|solutionrelative:fitnessapp.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250630093815_updateDB300620251237.cs",
-              "DocumentMoniker": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Repository\\Migrations\\20250630093815_updateDB300620251237.cs",
-              "RelativeDocumentMoniker": "FitnessApp.Repository\\Migrations\\20250630093815_updateDB300620251237.cs",
-              "ToolTip": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Repository\\Migrations\\20250630093815_updateDB300620251237.cs",
-              "RelativeToolTip": "FitnessApp.Repository\\Migrations\\20250630093815_updateDB300620251237.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Web\\Program.cs",
+              "RelativeDocumentMoniker": "FitnessApp.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Web\\Program.cs",
+              "RelativeToolTip": "FitnessApp.Web\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T09:38:15.27Z",
+              "WhenOpened": "2025-06-30T17:51:11.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FitnessApp.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FitnessApp.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T17:50:02.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ActivitySeed.cs",
-              "DocumentMoniker": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Repository\\Seeds\\ActivitySeed.cs",
-              "RelativeDocumentMoniker": "FitnessApp.Repository\\Seeds\\ActivitySeed.cs",
-              "ToolTip": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Repository\\Seeds\\ActivitySeed.cs",
-              "RelativeToolTip": "FitnessApp.Repository\\Seeds\\ActivitySeed.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T09:34:10.423Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Web\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "FitnessApp.Web\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Web\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "FitnessApp.Web\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T17:49:56.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Repository\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "FitnessApp.Repository\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Repository\\AppDbContext.cs",
-              "RelativeToolTip": "FitnessApp.Repository\\AppDbContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBcAAABVAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FitnessApp.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FitnessApp.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T09:31:42.096Z",
+              "WhenOpened": "2025-06-30T16:43:07.576Z",
               "EditorCaption": ""
             }
           ]
