@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BC91261-5EAF-4C64-9298-747DFDC6AD61}|FitnessApp.Web\\FitnessApp.Web.csproj|c:\\users\\cgesgin\\source\\repos\\fitnessapp\\fitnessapp.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BC91261-5EAF-4C64-9298-747DFDC6AD61}|FitnessApp.Web\\FitnessApp.Web.csproj|solutionrelative:fitnessapp.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Repository\\Migrations\\20250630093815_updateDB300620251237.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FitnessApp.Repository\\Migrations\\20250630093815_updateDB300620251237.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BC91261-5EAF-4C64-9298-747DFDC6AD61}|FitnessApp.Web\\FitnessApp.Web.csproj|c:\\users\\cgesgin\\source\\repos\\fitnessapp\\fitnessapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BC91261-5EAF-4C64-9298-747DFDC6AD61}|FitnessApp.Web\\FitnessApp.Web.csproj|solutionrelative:fitnessapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF8460DC-3EAC-44C9-AD60-C52E12BF86DA}|FitnessApp.Repository\\FitnessApp.Repository.csproj|c:\\users\\cgesgin\\source\\repos\\fitnessapp\\fitnessapp.repository\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8460DC-3EAC-44C9-AD60-C52E12BF86DA}|FitnessApp.Repository\\FitnessApp.Repository.csproj|solutionrelative:fitnessapp.repository\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8460DC-3EAC-44C9-AD60-C52E12BF86DA}|FitnessApp.Repository\\FitnessApp.Repository.csproj|c:\\users\\cgesgin\\source\\repos\\fitnessapp\\fitnessapp.repository\\seeds\\activityseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8460DC-3EAC-44C9-AD60-C52E12BF86DA}|FitnessApp.Repository\\FitnessApp.Repository.csproj|solutionrelative:fitnessapp.repository\\seeds\\activityseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Web\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "FitnessApp.Web\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Web\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "FitnessApp.Web\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBkAAABQAAAAAAAAAA==",
+              "Title": "20250630093815_updateDB300620251237.cs",
+              "DocumentMoniker": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Repository\\Migrations\\20250630093815_updateDB300620251237.cs",
+              "RelativeDocumentMoniker": "FitnessApp.Repository\\Migrations\\20250630093815_updateDB300620251237.cs",
+              "ToolTip": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Repository\\Migrations\\20250630093815_updateDB300620251237.cs",
+              "RelativeToolTip": "FitnessApp.Repository\\Migrations\\20250630093815_updateDB300620251237.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T08:14:09.213Z",
+              "WhenOpened": "2025-06-30T09:38:15.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ActivitySeed.cs",
+              "DocumentMoniker": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Repository\\Seeds\\ActivitySeed.cs",
+              "RelativeDocumentMoniker": "FitnessApp.Repository\\Seeds\\ActivitySeed.cs",
+              "ToolTip": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Repository\\Seeds\\ActivitySeed.cs",
+              "RelativeToolTip": "FitnessApp.Repository\\Seeds\\ActivitySeed.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:34:10.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Web\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "FitnessApp.Web\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Web\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "FitnessApp.Web\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Repository\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "FitnessApp.Repository\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Repository\\AppDbContext.cs",
+              "RelativeToolTip": "FitnessApp.Repository\\AppDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBcAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T08:02:36.405Z",
+              "WhenOpened": "2025-06-30T09:31:42.096Z",
               "EditorCaption": ""
             }
           ]
