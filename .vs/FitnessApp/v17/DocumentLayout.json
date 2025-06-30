@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC91261-5EAF-4C64-9298-747DFDC6AD61}|FitnessApp.Web\\FitnessApp.Web.csproj|c:\\users\\cgesgin\\source\\repos\\fitnessapp\\fitnessapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC91261-5EAF-4C64-9298-747DFDC6AD61}|FitnessApp.Web\\FitnessApp.Web.csproj|solutionrelative:fitnessapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC91261-5EAF-4C64-9298-747DFDC6AD61}|FitnessApp.Web\\FitnessApp.Web.csproj|c:\\users\\cgesgin\\source\\repos\\fitnessapp\\fitnessapp.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC91261-5EAF-4C64-9298-747DFDC6AD61}|FitnessApp.Web\\FitnessApp.Web.csproj|solutionrelative:fitnessapp.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "FitnessApp.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "FitnessApp.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T08:14:09.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FitnessApp.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\cgesgin\\source\\repos\\FitnessApp\\FitnessApp.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FitnessApp.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T08:02:36.405Z",
+              "EditorCaption": ""
             }
           ]
         }

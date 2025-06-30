@@ -21,6 +21,7 @@ builder.Services.AddDbContext<AppDbContext>(
         })
     );
 
+
 // Identity Configuration
 builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 {
@@ -34,6 +35,15 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 })
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.Cookie.Name = "AspNetCore.Identity.Application";
+    options.ExpireTimeSpan = TimeSpan.FromHours(6);
+    options.SlidingExpiration = false;
+    options.LoginPath = "/Account/Login";
+});
+
 var app = builder.Build();
 
 await AppUserInitialize.Configure(app.Services);

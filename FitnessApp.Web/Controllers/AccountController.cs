@@ -2,6 +2,7 @@
 using FitnessApp.Web.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace FitnessApp.Web.Controllers
 {
@@ -20,6 +21,10 @@ namespace FitnessApp.Web.Controllers
 
         public IActionResult Login()
         {
+            if (User.Identity != null && User.Identity.IsAuthenticated)
+            {
+                return Content("<script>history.back();</script>", "text/html");
+            }
             return View();
         }
 
