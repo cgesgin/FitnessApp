@@ -1,0 +1,89 @@
+﻿@model MembershipPlanCreateViewModel
+
+@{
+    ViewData["Title"] = "Create Membership Plan";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Create Membership Plan</h2>
+<p class="text-muted">Fill out the form below to add a new membership plan to your system.</p>
+
+
+<form asp-action="Create" method="post" id="createForm">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price" class="control-label"></label>
+        <input asp-for="Price" class="form-control" type="number" step="0.01" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label asp-for="DurationValue" class="control-label"></label>
+            <input asp-for="DurationValue" class="form-control" type="number"  step="1"/>
+            <span asp-validation-for="DurationValue" class="text-danger"></span>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label asp-for="DurationType" class="control-label"></label>
+            <select asp-for="DurationType" class="form-control" asp-items="Model.DurationTypes">
+                <option value="">-- Select Duration Type --</option>
+            </select>
+            <span asp-validation-for="DurationType" class="text-danger"></span>
+        </div>
+    </div>
+
+
+     <div class="form-group"> 
+         <label asp-for="MembershipTypeId" class="control-label"></label> 
+         <select asp-for="MembershipTypeId" class="form-control" asp-items="Model.MembershipTypes"> 
+             <option value="">-- Select Membership Type --</option> 
+         </select> 
+         <span asp-validation-for="MembershipTypeId" class="text-danger"></span> 
+     </div>
+
+    <div class="form-group">
+        <label>Activities <span class="text-danger">*</span></label>
+        <div>
+            @foreach (var activity in Model.AllActivities)
+            {
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox"
+                           name="SelectedActivityIds"
+                           value="@activity.Id"
+                           id="activity_@activity.Id" />
+                    <label class="form-check-label" for="activity_@activity.Id">
+                        @activity.Name
+                    </label>
+                </div>
+            }
+        </div>
+        <span id="activityError" class="text-danger" style="display:none;">* You must choose at least one activity.</span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        document.getElementById('createForm').addEventListener('submit', function(e) {
+            var checkboxes = document.querySelectorAll('input[name="SelectedActivityIds"]:checked');
+            if (checkboxes.length === 0) {
+                e.preventDefault(); 
+                document.getElementById('activityError').style.display = 'block';
+            } else {
+                document.getElementById('activityError').style.display = 'none';
+            }
+        });
+    </script>
+}

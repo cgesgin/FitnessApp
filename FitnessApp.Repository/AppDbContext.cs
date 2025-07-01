@@ -27,6 +27,7 @@ namespace FitnessApp.Repository
 
         public DbSet<Activity> Activities { get; set; }
         public DbSet<MembershipType> MembershipTypes { get; set; }
+        public DbSet<MembershipPlan> MembershipPlans { get; set; }
 
     }
 }

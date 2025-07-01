@@ -1,6 +1,10 @@
 using FitnessApp.Core.Models;
+using FitnessApp.Core.Repositories;
+using FitnessApp.Core.Services;
 using FitnessApp.Repository;
+using FitnessApp.Repository.Repositories;
 using FitnessApp.Repository.Seeds;
+using FitnessApp.Service.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -10,6 +14,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Registering the services
+builder.Services.AddScoped<IActivityRepository, ActivityRepository>();
+builder.Services.AddScoped<IActivityService, AcitivityService>();
+
+builder.Services.AddScoped<IMembershipPlanRepository, MembershipPlanRepository>();
+builder.Services.AddScoped<IMembershipPlanService, MembershipPlanService>();
+
+builder.Services.AddScoped<IMembershipTypeRepository, MembershipTypeRepository>();
+builder.Services.AddScoped<IMembershipTypeService, MembershipTypeService>();
 
 // DB Connection
 var SqlCon = builder.Configuration.GetConnectionString("MySqlCon");

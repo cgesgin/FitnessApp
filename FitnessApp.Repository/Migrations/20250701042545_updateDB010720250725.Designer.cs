@@ -4,6 +4,7 @@ using FitnessApp.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FitnessApp.Repository.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250701042545_updateDB010720250725")]
+    partial class updateDB010720250725
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,21 +24,6 @@ namespace FitnessApp.Repository.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
-
-            modelBuilder.Entity("ActivityMembershipPlan", b =>
-                {
-                    b.Property<int>("ActivitiesId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("MembershipPlansId")
-                        .HasColumnType("int");
-
-                    b.HasKey("ActivitiesId", "MembershipPlansId");
-
-                    b.HasIndex("MembershipPlansId");
-
-                    b.ToTable("ActivityMembershipPlan");
-                });
 
             modelBuilder.Entity("FitnessApp.Core.Models.Activity", b =>
                 {
@@ -370,21 +358,6 @@ namespace FitnessApp.Repository.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
-                });
-
-            modelBuilder.Entity("ActivityMembershipPlan", b =>
-                {
-                    b.HasOne("FitnessApp.Core.Models.Activity", null)
-                        .WithMany()
-                        .HasForeignKey("ActivitiesId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("FitnessApp.Core.Models.MembershipPlan", null)
-                        .WithMany()
-                        .HasForeignKey("MembershipPlansId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("FitnessApp.Core.Models.MembershipPlan", b =>
