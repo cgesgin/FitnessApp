@@ -11,6 +11,8 @@ namespace FitnessApp.Core.Repositories
     {
         Task<IEnumerable<MembershipPlan>> GetAllAsync();
         Task AddAsync(MembershipPlan entity);
+        Task<MembershipPlan> GetByIdAsync(int id);
+        Task UpdateAsync(MembershipPlan entity);
 
     }
 }

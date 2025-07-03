@@ -27,5 +27,21 @@ namespace FitnessApp.Service.Services
         {
             await _planRepository.AddAsync(entity);
         }
+
+        public async Task<MembershipPlan> GetByIdAsync(int id)
+        {
+            return await _planRepository.GetByIdAsync(id);
+        }
+
+        public async Task SoftDeleteAsync(int id)
+        {
+            var plan = await _planRepository.GetByIdAsync(id);
+            if (plan == null)
+            {
+                throw new KeyNotFoundException($"Membership plan plan with ID {id} not found.");
+            }
+            plan.IsDeleted = true;
+            await _planRepository.UpdateAsync(plan);
+        }
     }
 }

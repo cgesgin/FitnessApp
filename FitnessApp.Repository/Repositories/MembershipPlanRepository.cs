@@ -32,5 +32,17 @@ namespace FitnessApp.Repository.Repositories
             await _context.MembershipPlans.AddAsync(entity);
             await _context.SaveChangesAsync();
         }
+
+        public async Task<MembershipPlan> GetByIdAsync(int id)
+        {
+            return await _context.MembershipPlans
+                .FirstOrDefaultAsync(mp => mp.Id == id && !mp.IsDeleted);
+        }
+
+        public async Task UpdateAsync(MembershipPlan entity)
+        {
+            _context.MembershipPlans.Update(entity);
+            await _context.SaveChangesAsync();
+        }
     }
 }

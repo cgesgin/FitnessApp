@@ -11,6 +11,7 @@ namespace FitnessApp.Core.Services
     {
         Task<IEnumerable<MembershipPlan>> GetAllAsync();
         Task AddAsync(MembershipPlan entity);
-
+        Task<MembershipPlan> GetByIdAsync(int id);
+        Task SoftDeleteAsync(int id);
     }
 }

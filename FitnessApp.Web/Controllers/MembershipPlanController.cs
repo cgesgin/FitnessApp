@@ -93,6 +93,18 @@ namespace FitnessApp.Web.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var plan = await _planService.GetByIdAsync(id);
+            if (plan == null)
+            {
+                return NotFound();
+            }
+            await _planService.SoftDeleteAsync(plan.Id);
+            return RedirectToAction(nameof(Index));
+        }
 
         private async Task PopulateSelectListsAsync(MembershipPlanCreateViewModel model)
         {
